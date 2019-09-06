@@ -47,9 +47,9 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'postgres://kqlmhmpbjqdjsb:485ed8017fbc94ffeedd93f4767a97397c034fa9bf8dc2e4652886c3ce4945b9@ec2-23-21-156-171.compute-1.amazonaws.com:5432/dbi6eg38sb53lc'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'postgres://kqlmhmpbjqdjsb:485ed8017fbc94ffeedd93f4767a97397c034fa9bf8dc2e4652886c3ce4945b9@ec2-23-21-156-171.compute-1.amazonaws.com:5432/dbi6eg38sb53lc'),
+            'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'root'),
             'password' => env('DB_PASSWORD', 'm1cssT1CBBuWua1k6VUhUAOIDApl1rJPdLWv>BNpT72#XZ%m^rkEQebaE#Y2*@%%'),
             'charset' => 'utf8',
