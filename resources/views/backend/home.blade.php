@@ -8,11 +8,11 @@
   <title>AdminLTE 3 | Dashboard 2</title>
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="{{ asset('/') }}/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="{{ asset('/') }}plugins/fontawesome-free/css/all.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="{{ asset('/') }}/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="{{ asset('/') }}plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ asset('/') }}/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="{{ asset('/') }}dist/css/adminlte.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -1088,17 +1088,17 @@
                   <div class="card-body p-0">
                     <ul class="users-list clearfix">
                       <li>
-                        <img src="{{ asset('/') }}/dist/img/user1-128x128.jpg" alt="User Image">
+                        <img src="{{ asset('/') }}dist/img/user1-128x128.jpg" alt="User Image">
                         <a class="users-list-name" href="#">Alexander Pierce</a>
                         <span class="users-list-date">Today</span>
                       </li>
                       <li>
-                        <img src="{{ asset('/') }}/dist/img/user8-128x128.jpg" alt="User Image">
+                        <img src="{{ asset('/') }}dist/img/user8-128x128.jpg" alt="User Image">
                         <a class="users-list-name" href="#">Norman</a>
                         <span class="users-list-date">Yesterday</span>
                       </li>
                       <li>
-                        <img src="{{ asset('/') }}/dist/img/user7-128x128.jpg" alt="User Image">
+                        <img src="{{ asset('/') }}dist/img/user7-128x128.jpg" alt="User Image">
                         <a class="users-list-name" href="#">Jane</a>
                         <span class="users-list-date">12 Jan</span>
                       </li>
